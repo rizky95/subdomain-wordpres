@@ -15,7 +15,7 @@
         <div data-role="page" id="home">
             <div data-role="header">
                 <h1>RIZKY GAGAH YONDISETYO GUEST HOUSE YOGYA</h1>
-                <a data-role="button" class="ui-btn-left" href="#info" data-icon="info">INFO</a>
+                <a data-role="button" class="ui-btn-right" href="#info" data-icon="info">INFO</a>
             </div>
             <div data-role="content">
                 <img src="images/8.jpg" width="300" height="250" />
@@ -46,13 +46,13 @@
         <div data-role="page" id="facilities">
             <div data-role="header">
                 <h1>GUEST HOUSE</h1>
-                <a data-role="button" class="ui-btn-left" href="#info" data-icon="info">INFO</a>
+                <a data-role="button" class="ui-btn-right" href="#info" data-icon="info">INFO</a>
             </div>
             <div data-role="content">
                 <div data-role="controlgroup">
                     <a data-role="button" href="#guest" data-icon="arrow-r" data-iconpos="right">GUEST ROOMS</a>
                     <a data-role="button" href="#dining" data-icon="arrow-r" data-iconpos="right">DINNER</a>
-                    <a data-role="button" href="#nature" data-icon="arrow-r" data-iconpos="right">NATURE</a>
+                    <a data-role="button" href="#garden" data-icon="arrow-r" data-iconpos="right">GARDEN</a>
                 </div>
             </div>
             <div data-role="footer" data-position="fixed">
@@ -74,7 +74,7 @@
         <div data-role="page" id="reservations">
             <div data-role="header">
                 <h1>GUEST HOUSE</h1>
-                <a data-role="button" class="ui-btn-left" href="#info" data-icon="info">INFO</a>
+                <a data-role="button" class="ui-btn-right" href="#info" data-icon="info">INFO</a>
             </div>
             <div data-role="content">
                 <div data-role="fieldcontain">
@@ -118,7 +118,7 @@
         <div data-role="page" id="guest">
             <div data-role="header">
                 <h1>GUEST HOUSE</h1>
-                <a data-role="button" class="ui-btn-left" href="#info" data-icon="info">INFO</a>
+                <a data-role="button" class="ui-btn-right" href="#info" data-icon="info">INFO</a>
             </div>
             <div data-role="content">
 			 <img src="images/6.jpg" width="300" height="300" />
@@ -153,7 +153,7 @@ Lorem ipsum dolor sit amet, cupidatat non proident, duis aute irure dolor. Sed d
         <div data-role="page" id="dining">
             <div data-role="header">
                 <h1>Dining Room</h1>
-                <a data-role="button" class="ui-btn-left" href="#info" data-icon="info">INFO</a>
+                <a data-role="button" class="ui-btn-right" href="#info" data-icon="info">INFO</a>
             </div>
             <div data-role="content">
 				<ul data-role="listview" data-filter="true" data-filter-placeholder="MAKANAN">
@@ -202,7 +202,7 @@ Lorem ipsum dolor sit amet, cupidatat non proident, duis aute irure dolor. Sed d
 		<div data-role="page" id="garden">
             <div data-role="header">
                 <h1>NATURE</h1>
-                <a data-role="button" class="ui-btn-left" href="#info" data-icon="info">INFO</a>
+                <a data-role="button" class="ui-btn-right" href="#info" data-icon="info">INFO</a>
             </div>
             <div data-role="content">
 			<img src="images/11.jpg" width="400" height="300" />
@@ -231,7 +231,7 @@ Guest HouseLorem ipsum dolor sit amet, cupidatat non proident, duis aute irure d
         </div>
         <div data-role="page" id="info">
             <div data-role="header">
-                <h1>INFO</h1>
+                <h1>Info</h1>
             </div>
             <div data-role="content">
 				<ul data-role="listview" data-inset="true">

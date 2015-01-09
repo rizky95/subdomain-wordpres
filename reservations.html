@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Guest House: Reservations</title>
+<link href="styles/hotel.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="header">
+    <h1>Guest House</h1>
+  </div>
+  <ul id="nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="rooms.html">Guest Rooms</a></li>
+    <li><a href="dining.html">Dining</a></li>
+    <li><a href="garden.html">Garden</a></li>
+    <li><a href="reservations.html">Reservations</a></li>
+  </ul>
+  <div class="content-medium">
+    <h2>Order ke kami</h2>
+    <form action="" method="post" id="availability">
+      <p>
+        <label for="title">Panggilan: </label>
+            <select name="title" id="title">
+              <option> </option>
+              <option>Mr.</option>
+              <option>Mrs.</option>
+              <option>Ms.</option>
+              <option>Lainnya</option>
+            </select>
+         <label for="other">Yang lainnya:</label>
+        <input name="other" class="narrowField" id="other" />
+      </p>
+      <p>
+        <label for="first_name">Nama Depan: </label>
+        <input type="text" name="first_name" id="first_name" />
+      </p>
+      <p>
+        <label for="family_name">Nama Keluarga: </label>
+        <input type="text" name="family_name" id="family_name" />
+      </p>
+      <p>
+        <label for="arrival_month">Datang: </label>
+        <select name="arrival_month" id="arrival_month">
+          <option value="1">Jan</option>
+          <option value="2">Feb</option>
+          <option value="3">Mar</option>
+          <option value="4">Apr</option>
+          <option value="5">May</option>
+          <option value="6">June</option>
+          <option value="7">July</option>
+          <option value="8">Aug</option>
+          <option value="9">Sept</option>
+          <option value="10">Oct</option>
+          <option value="11">Nov</option>
+          <option value="12">Dec</option>
+        </select>
+        <select name="arrival_date" id="arrival_date">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+          <option>16</option>
+          <option>17</option>
+          <option>18</option>
+          <option>19</option>
+          <option>20</option>
+          <option>21</option>
+          <option>22</option>
+          <option>23</option>
+          <option>24</option>
+          <option>25</option>
+          <option>26</option>
+          <option>27</option>
+          <option>28</option>
+          <option>29</option>
+          <option>30</option>
+          <option>31</option>
+        </select>
+        <select name="arrival_year" id="arrival_year">
+          <option>2011</option>
+          <option>2012</option>
+          <option>2013</option>
+          <option>2014</option>
+        </select>
+      </p>
+      <p>
+        <label for="departure_month">Keluar: </label>
+        <select name="departure_month" id="departure_month">
+          <option value="1">Jan</option>
+          <option value="2">Feb</option>
+          <option value="3">Mar</option>
+          <option value="4">Apr</option>
+          <option value="5">May</option>
+          <option value="6">June</option>
+          <option value="7">July</option>
+          <option value="8">Aug</option>
+          <option value="9">Sept</option>
+          <option value="10">Oct</option>
+          <option value="11">Nov</option>
+          <option value="12">Dec</option>
+        </select>
+         <select name="departure_date" id="departure_date">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+          <option>16</option>
+          <option>17</option>
+          <option>18</option>
+          <option>19</option>
+          <option>20</option>
+          <option>21</option>
+          <option>22</option>
+          <option>23</option>
+          <option>24</option>
+          <option>25</option>
+          <option>26</option>
+          <option>27</option>
+          <option>28</option>
+          <option>29</option>
+          <option>30</option>
+          <option>31</option>
+        </select>
+        <select name="departure_year" id="departure_year">
+          <option>2011</option>
+          <option>2012</option>
+          <option>2013</option>
+          <option>2014</option>
+        </select>
+      </p>
+      <fieldset>
+        <legend>Tamu</legend>
+        <p>
+          <label for="adults">Dewasa: </label>
+          <input name="adults" type="text" class="narrowField" id="adults" />
+          <label for="children">Anak-anak:</label>
+          <input name="children" type="text" class="narrowField" id="children" />
+        </p>
+</fieldset>
+    <p>
+      <input type="submit" name="send" id="send" value="Cek Ketersediaan &amp; Rates" />
+    </p>
+    </form>
+</div>
+  <div class="aside">
+    <h3>Booking Terms dan Conditions</h3>
+    <p>Lorem ipsum dolor sit amet, cupidatat non proident, duis aute irure dolor. Sed do eiusmod tempor incididunt mollit anim id est laborum. Velit esse cillum dolore ut enim ad minim veniam. Duis aute irure dolor lorem ipsum dolor sit amet, ullamco laboris nisi.</p>
+    <p>Lorem ipsum dolor sit amet, cupidatat non proident, duis aute irure dolor. Sed do eiusmod tempor incididunt mollit anim id est laborum. Velit esse cillum dolore ut enim ad minim veniam. Duis aute irure dolor lorem ipsum dolor sit amet, ullamco laboris nisi.</p>
+  </div>
+  <div id="footer">
+	 <p>Guest House, Kaliurang, Yogyakarta</p>
+     <p>Phone: 029-111 2222</p>
+  </div>
+</div>
+</body>
+</html>
